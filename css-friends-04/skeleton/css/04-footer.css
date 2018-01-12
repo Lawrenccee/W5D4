@@ -1,0 +1,33 @@
+/* PHASE 4: Footer */
+.footer {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  justify-content: space-between;
+  background-color: white;
+  color: #aaa;
+  font-size: 14px;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.menu-list, .copyright {
+  padding: 10px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-list > li {
+  margin-right: 15px;
+}
+
+.copyright {
+  margin-left: 15px;
+}
+
+.menu-list a:hover {
+  color: black;
+}
